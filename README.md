@@ -1,4 +1,3 @@
-# Early-Warning-System-for-Sustainable-Education-SDG-4-
 # 🎓 Early Warning System for Sustainable Education
 
 An Early Warning System (EWS) prototype that utilizes machine learning techniques to identify students who may be at risk of academic difficulties. This project demonstrates how educational data can be analyzed to support early intervention strategies and promote sustainable education outcomes.
