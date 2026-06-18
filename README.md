@@ -1,104 +1,114 @@
 # 🎓 Early Warning System for Sustainable Education
 
-An Early Warning System (EWS) prototype that utilizes machine learning techniques to identify students who may be at risk of academic difficulties. This project demonstrates how educational data can be analyzed to support early intervention strategies and promote sustainable education outcomes.
+### Developed by Adhyoda
+
+A machine learning-based Early Warning System (EWS) prototype designed to identify students who may be at risk of academic difficulties and support sustainable education initiatives through predictive analytics.
 
 ---
 
 ## 📖 Project Overview
 
-Student success and retention are important factors in achieving quality and sustainable education. Educational institutions can benefit from data-driven approaches to identify students who may require additional support before academic problems become severe.
+Education plays a crucial role in sustainable development. One of the challenges faced by educational institutions is identifying students who may experience academic difficulties before their performance significantly declines.
 
-This project develops a simple Early Warning System using machine learning to classify student academic risk levels based on several performance indicators.
+This project demonstrates the implementation of an **Early Warning System (EWS)** using machine learning techniques. The system analyzes student-related indicators and predicts potential academic risk levels, enabling educators to take proactive interventions.
 
-The primary goal is to demonstrate the complete machine learning workflow, including:
-
-* Data generation
-* Data preprocessing
-* Feature engineering
-* Model training
-* Feature importance analysis
-* Educational interpretation of results
+The project serves as a proof-of-concept showing how data science can be applied to support educational decision-making and improve student outcomes.
 
 ---
 
 ## 🎯 Objectives
 
-* Develop a prototype Early Warning System (EWS) for student performance monitoring.
-* Explore factors that may influence student academic outcomes.
-* Apply machine learning techniques for educational analytics.
-* Identify the most important variables contributing to predictions.
-* Demonstrate how predictive analytics can support Sustainable Development Goal (SDG) 4: Quality Education.
+* Build an Early Warning System for student performance monitoring.
+* Apply machine learning techniques to educational data.
+* Identify factors that contribute most to academic risk.
+* Demonstrate the use of predictive analytics in education.
+* Support Sustainable Development Goal (SDG) 4: Quality Education.
 
 ---
 
-## ⚠️ Dataset Notice
+## ⚠️ Important Note About the Dataset
 
-The dataset used in this project is **synthetically generated** and does not represent real student records.
+The dataset used in this project is **synthetically generated** and was created programmatically using random value generation techniques.
 
-To ensure privacy and demonstrate the machine learning workflow without relying on sensitive educational information, student data was created programmatically using random value generation techniques.
+No real student records were used in this project.
 
-The generated dataset includes simulated attributes such as:
+The purpose of generating synthetic data is to:
+
+* Demonstrate the machine learning workflow.
+* Avoid privacy and ethical concerns regarding educational data.
+* Provide a safe environment for experimentation and learning.
+
+The generated dataset simulates educational attributes such as:
 
 * Attendance Rate
 * Study Hours
 * Assignment Scores
-* Exam Scores
+* Examination Scores
 * Academic Performance Indicators
 
-Because the dataset is artificial, the results should be interpreted as a **proof-of-concept implementation** rather than a production-ready educational prediction system.
+Therefore, the results presented in this repository should be interpreted as a **demonstration of methodology and implementation**, rather than a production-ready educational prediction system.
 
 ---
 
-## 📊 Methodology
+## 🔬 Methodology
 
-### 1. Data Generation
+### 1. Synthetic Data Generation
 
-A synthetic student dataset is created using Python and random number generation methods.
+Student records are generated using Python and randomization techniques to simulate realistic educational scenarios.
 
 ### 2. Data Preprocessing
 
+The dataset undergoes several preprocessing steps:
+
 * Data cleaning
 * Feature preparation
-* Target variable generation
-* Dataset validation
+* Target variable creation
+* Data validation
 
 ### 3. Exploratory Data Analysis (EDA)
 
-Basic exploration of student-related variables to understand data characteristics.
+Basic analysis is performed to understand the characteristics of the dataset and relationships between variables.
 
-### 4. Train-Test Split
+### 4. Data Splitting
 
-The dataset is divided into training and testing subsets to evaluate model performance.
+The dataset is divided into:
+
+* Training Set
+* Testing Set
+
+to evaluate model performance effectively.
 
 ### 5. Machine Learning Model
 
-A classification model is trained to predict student academic risk levels.
+A classification model is trained to identify students who may be at risk based on their academic indicators.
 
 ### 6. Feature Importance Analysis
 
-Feature importance is used to identify which variables contribute most significantly to model predictions.
+Feature importance is analyzed to determine which factors contribute most significantly to prediction outcomes.
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
-* Jupyter Notebook
+| Technology       | Purpose                 |
+| ---------------- | ----------------------- |
+| Python           | Programming Language    |
+| Pandas           | Data Manipulation       |
+| NumPy            | Numerical Computation   |
+| Matplotlib       | Data Visualization      |
+| Scikit-Learn     | Machine Learning        |
+| Jupyter Notebook | Development Environment |
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
 Early-Warning-System-for-Sustainable-Education/
 │
 ├── Early Warning System for Sustainable Education.ipynb
-├── README.md
-└── student_data.csv
+├── student_data.csv
+└── README.md
 ```
 
 ---
@@ -108,13 +118,13 @@ Early-Warning-System-for-Sustainable-Education/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/early-warning-system-for-sustainable-education.git
+git clone https://github.com/YOUR_USERNAME/Early-Warning-System-for-Sustainable-Education.git
 ```
 
-### Navigate to the Project Directory
+### Enter the Project Directory
 
 ```bash
-cd early-warning-system-for-sustainable-education
+cd Early-Warning-System-for-Sustainable-Education
 ```
 
 ### Install Required Libraries
@@ -123,13 +133,13 @@ cd early-warning-system-for-sustainable-education
 pip install pandas numpy matplotlib scikit-learn jupyter
 ```
 
-### Launch Jupyter Notebook
+### Run Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-Open:
+Then open:
 
 ```text
 Early Warning System for Sustainable Education.ipynb
@@ -137,25 +147,23 @@ Early Warning System for Sustainable Education.ipynb
 
 ---
 
-## 📈 Expected Outcomes
+## 📊 Expected Outcomes
 
-The project demonstrates:
+This project demonstrates:
 
 * Educational data preprocessing
-* Student risk classification
-* Feature importance evaluation
-* Machine learning workflow implementation
-* Data-driven educational decision support concepts
+* Machine learning classification workflow
+* Student risk prediction concepts
+* Feature importance analysis
+* Data-driven educational decision support
 
 ---
 
-## 🌍 Relation to Sustainable Development Goals
-
-This project aligns with:
+## 🌍 Sustainable Development Goal (SDG)
 
 ### SDG 4 – Quality Education
 
-By exploring predictive analytics for identifying students who may need additional academic support, the project illustrates how data science can contribute to more effective and inclusive educational systems.
+This project aligns with the United Nations Sustainable Development Goal (SDG) 4 by exploring how predictive analytics and machine learning can be used to support student success and educational quality through early intervention strategies.
 
 ---
 
@@ -167,19 +175,35 @@ Potential enhancements include:
 * Comparing multiple machine learning algorithms
 * Hyperparameter optimization
 * Interactive dashboard development
-* Web-based deployment
-* Real-time student monitoring system
+* Real-time monitoring system
+* Web application deployment
 
 ---
 
-## 🤝 Contributions
+## 👨‍💻 Author
 
-Contributions, suggestions, and improvements are welcome.
+### Adhyoda
 
-Feel free to fork the repository and submit a pull request.
+Physics Student | Graphic Designer | Aspiring Art Director & Producer
+
+Interests:
+
+* Data Science
+* Machine Learning
+* Educational Analytics
+* Creative Technology
+* Design & Media
+
+GitHub: https://github.com/adhyoda
 
 ---
 
 ## 📜 License
 
-This project was developed for educational and academic purposes.
+This project is developed for educational, academic, and portfolio purposes.
+
+Feel free to use, modify, and expand the project for learning and research purposes.
+
+---
+
+⭐ If you find this project useful, consider giving it a star.
